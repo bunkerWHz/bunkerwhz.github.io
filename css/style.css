@@ -4,10 +4,8 @@ body {
   margin: 0;
   font-family: 'Baloo Bhaina', cursive;
 }
-h1{
-  text-align: center;
-  font-size: 1.75rem;
-  color: #4078C0;
+h1 {
+  margin-bottom: 35px;
 }
 
 .col {
@@ -34,6 +32,24 @@ h1{
   font-size: 1.25rem;
 
 }
+.col {
+  margin: 0 10px;
+}
+.navbar {
+  background-color: #999999;
+  border-bottom: 2px solid black;
+  border-top: 2px solid black;
+}
+.navbar-default .navbar-collapse{
+  background-color: #999999;
+}
+.navbar-nav li:nth-child(even) {
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+}
+.collapse ul.navbar-nav a{
+  color: black;
+}
 .col:nth-of-type(1) .label{
   background-color: #D59898;
 }
@@ -45,23 +61,5 @@ h1{
 .col:nth-of-type(3) .label{
   background-color: #E5D198;
 }
-@media (min-width:992px) {
-  .col{
-    width: 30%;
-    margin-left: 2.5%;
-  }
-}
-@media (min-width: 768px) and (max-width: 991px) {
-  .col {
-    width: 46.25%;
-    margin: 0 0 2.5% 2.5%;
-  }
-  .col:nth-of-type(3) {
-    width: 95%;
-  }
-}
-@media (max-width: 767px) {
-  .col {
-    margin: 2.5% 5%;
-  }
+
 }
