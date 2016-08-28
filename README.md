@@ -1,1 +1,1 @@
-# Coursera RoR Development 
+# js-coursera
