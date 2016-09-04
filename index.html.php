@@ -34,7 +34,9 @@
             <span class="icon-bar"></span>
           </button>
         </div>
-        
+        <?php
+echo "My first PHP script!";
+?>
         <div id="collapsable-nav" class="collapse navbar-collapse">
            <ul id="nav-list" class="nav navbar-nav navbar-right">
             <li id="navHomeButton" class="visible-xs active">
